@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ashutoshsmac/churn-prediction-mlops/mlruns/256993437712163449/0139266652c7476eb124fd7cc3061f00/artifacts
+end_time: 1786367109781
+entry_point_name: ''
+experiment_id: '256993437712163449'
+lifecycle_stage: active
+run_id: 0139266652c7476eb124fd7cc3061f00
+run_name: xgboost_best
+run_uuid: 0139266652c7476eb124fd7cc3061f00
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1786367107538
+status: 3
+tags: []
+user_id: ashutoshsmac

@@ -630,24 +630,8 @@ docker run -p 8000:8000 churn-api
 
 ---
 
-## 17. Resume Bullet Points
-
-Use these on your CV/resume under Projects:
-
-**One-liner:**
-> Built an end-to-end customer churn prediction MLOps system achieving 91.2% ROC-AUC using XGBoost with Optuna hyperparameter tuning, MLflow experiment tracking, SHAP explainability, FastAPI deployment containerised with Docker, and Evidently AI drift monitoring.
-
-**Detailed version:**
-> - Engineered 3 domain-specific features (ChargePerTenure, NumServices, TenureGroup) from EDA insights, improving model ROC-AUC by ~3% over baseline
-> - Implemented Optuna Bayesian hyperparameter optimisation (90 trials across 3 models) with MLflow tracking, achieving 91.2% ROC-AUC vs 86.4% baseline
-> - Deployed model as a production REST API using FastAPI with Pydantic input validation, containerised with Docker, with auto-generated Swagger documentation
-> - Built SHAP TreeExplainer pipeline generating per-customer local explanations — enabling business teams to understand and act on model predictions
-> - Implemented automated data drift detection using Evidently AI with KS and chi-squared tests across all features, establishing a model retraining trigger system
-
----
-
 ## Author
 
-**Ashutosh** | Data Science Portfolio Project — 2026
+**Ashutosh** | Data Science Portfolio Project
 
 *This project was built as an industry-standard demonstration of the full ML engineering lifecycle, covering everything from raw data to production monitoring.*

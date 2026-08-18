@@ -219,7 +219,7 @@ Every tool in this project was chosen deliberately. Here is the reasoning behind
 ### MLflow
 **Why:** MLflow is the industry standard for experiment tracking. Without it, running 90 trials across 3 models would produce results that are impossible to reproduce or compare. MLflow automatically logs parameters, metrics, and model artifacts for every single run — giving a full audit trail of every experiment. This is critical for production ML systems where reproducibility is mandatory.
 
-### SHAP (SHapley Additive exPlanations)
+### SHAP (Shapley Additive explanations)
 **Why SHAP over feature importances:** Built-in feature importances from tree models (like `feature_importances_` in scikit-learn) only tell you global importance but not direction. SHAP provides:
 - **Global explanations** — which features matter most overall
 - **Local explanations** — why the model made a specific prediction for one customer
